@@ -76,7 +76,9 @@ Route::get('/update/{id}', function($id){
     $addy->save();
 });
 
-//READING & DELETING DATA
+/*
+READING & DELETING DATA
+*/
 
 Route::get('/read', function () {
 
